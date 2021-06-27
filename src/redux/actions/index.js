@@ -1,10 +1,12 @@
+import { INCREMENT, DECREMENT } from "./actionTypes";
+
 export const incNum = () => {
     return {
-        type: 'INCREMENT'
+        type: INCREMENT,
     }
 }
 export const decNum = () => {
     return {
-        type: 'DECREMENT'
+        type: DECREMENT,
     }
 }
